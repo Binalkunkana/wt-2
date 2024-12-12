@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "bcrypt": "^5.1.1"
+    "bcrypt": "^5.1.1",
+    "word-count": "^0.2.2"
   },
   "name": "demo",
   "version": "1.0.0",
   "description": "This is demo page",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
