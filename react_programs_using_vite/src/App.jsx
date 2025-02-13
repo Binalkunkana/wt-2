@@ -8,6 +8,8 @@ import ProductArray from './lab-16/productarray'
 import FacultyTable from './lab-16/faculty-table-array'
 import StudentTable from './lab-16/student-table-array'
 import ProductTable from './lab-16/product-table-array'
+import UseState from './lab-18/useState'
+import UseStateDemo from './lab-18/useState'
 
 function App() {
 
@@ -21,7 +23,8 @@ function App() {
       {/* <ProductArray/> */}
       {/* <FacultyTable/> */}
       {/* <StudentTable/> */}
-      <ProductTable/>
+      {/* <ProductTable/> */}
+      <UseStateDemo/>
     </>
   )
 }
