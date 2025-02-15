@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      {/* <Parentcomponent/> */}
+      {/* <Parentcomponent/> */} 
       {/* <Eventhandling/> */}
       {/* <MapMethod/> */}
       {/* <FacultyArray/> */}
