@@ -10,6 +10,8 @@ import StudentTable from './lab-16/student-table-array'
 import ProductTable from './lab-16/product-table-array'
 import UseState from './lab-18/useState'
 import UseStateDemo from './lab-18/useState'
+import UseEffectDemo from './lab-18/useEffectDemo'
+import Calculator from './lab-19/calculator'
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
       {/* <FacultyTable/> */}
       {/* <StudentTable/> */}
       {/* <ProductTable/> */}
-      <UseStateDemo/>
+      {/* <UseStateDemo/> */}
+      {/* <UseEffectDemo/> */}
+      <Calculator/>
     </>
   )
 }
