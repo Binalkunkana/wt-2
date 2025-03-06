@@ -4,19 +4,19 @@ function Calculator() {
     const [input,setInput] = useState('')
     const handle=(e)=>{
         console.log(e);
-        if(e=="=")
+        setInput(input+e)
+        if(e == "=")
         {
             setInput(eval(input)) 
         }
         if(e=="CE"){
             setInput("")
         }
-        setInput(e+"")
     }
     return (
         <>
             <input type="text" value={input}/>
-            <table class="table">qedse4ews3wa2qac5gyy
+            <table class="table">
             <tbody>
                     <tr>
                         <button onClick={()=>handle("1")}>1</button>
@@ -43,6 +43,7 @@ function Calculator() {
                         <button onClick={()=>handle("=")}>=</button>
                     </tr>
                     <tr>
+                        <button onClick={()=>handle("0")}>0</button>
                         <button onClick={()=>handle("CE")}>CE</button>
                     </tr>
                 </tbody>

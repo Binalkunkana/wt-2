@@ -12,6 +12,8 @@ import UseState from './lab-18/useState'
 import UseStateDemo from './lab-18/useState'
 import UseEffectDemo from './lab-18/useEffectDemo'
 import Calculator from './lab-19/calculator'
+import ScientificCalculator from './lab-19/scietific'
+import ProductCrud from './lab-20/ProductCRUD'
 
 function App() {
 
@@ -28,7 +30,9 @@ function App() {
       {/* <ProductTable/> */}
       {/* <UseStateDemo/> */}
       {/* <UseEffectDemo/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      {/* <ScientificCalculator/> */}
+      <ProductCrud/>
     </>
   )
 }
