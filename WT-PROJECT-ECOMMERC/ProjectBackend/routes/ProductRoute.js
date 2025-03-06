@@ -3,7 +3,7 @@ const Product = require('../models/Product')
 const { default: mongoose } = require('mongoose')
 const router = express.Router()
 
-router.use('/', async (req,res)=>{
+router.get('/', async (req,res)=>{
     const data = await Product.find()
     res.send(data)
 })

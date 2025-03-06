@@ -33,8 +33,8 @@ function App() {
       {/* <UseEffectDemo/> */}
       {/* <Calculator/> */}
       {/* <ScientificCalculator/> */}
-      {/* <ProductCrud/> */}
-      <StudentCurd/>
+      <ProductCrud/>
+      {/* <StudentCurd/> */}
     </>
   )
 }
